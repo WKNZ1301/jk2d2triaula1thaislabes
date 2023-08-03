@@ -1,0 +1,19 @@
+.cabeçalho__menu-hamburguer{
+    width: 36px;
+/*largura*/
+    height: 48px;
+/*altura*/
+    background-image: url(../img/Menu.svg);
+/*os .. permite procurar a imagem na pasta principal*/
+    display: inline-block;
+/*inline-block permite mexer na altura*/
+}
+.cabeçalho{
+    background-color: var(--branco);
+    display: flex;
+/*transforma o cabeçalho em um flex conteiner*/
+    justify-content: space-between;
+/*separa cada conteiner com o memso espaço entre eles*/
+    align-items: center;
+/*alinha os itens no meio da linha*/
+}
